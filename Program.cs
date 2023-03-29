@@ -17,6 +17,8 @@ class Program {
        Console.Write("Input score2: ");
        int score2 = int.Parse(Console.ReadLine()); //score2 จากกรรมการคนแรก ผู้หญิง
 
-       if (N >= 1000)
+       if (N <= 10000 && N > 1 && K <= 1000 && N >= 1) {
+        
+       }
     }
 }
